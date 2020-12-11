@@ -16,8 +16,8 @@ cap = chromeOptions.to_capabilities()
 class twitterscrap():
     def __init__(self):
         self.driver = webdriver.Chrome('chromedriver.exe', options=chromeOptions, desired_capabilities=cap)
-        self.username = ''
-        self.pwd = ''
+        self.username = 'z'
+        self.pwd = 'gooChris1'
     def get(self):
         self.driver.get('https://twitter.com/login')
     def login(self):
